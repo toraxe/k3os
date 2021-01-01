@@ -10,7 +10,7 @@ run_cmd:
 
 k3os:
   modules:
-  - kvm
   - nvme
   k3s_args:
   - server
+  password: rancher
