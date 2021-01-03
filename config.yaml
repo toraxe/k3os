@@ -1,6 +1,6 @@
 ssh_authorized_keys:
 - github:toraxe
-hostname: k3s-1
+hostname: k3s-2
 init_cmd:
 - "echo hello, init command"
 boot_cmd:
@@ -12,5 +12,8 @@ k3os:
   modules:
   - nvme
   k3s_args:
-  - server
+  - agent
   password: rancher
+  server_url: http://k3s-1:6443
+  token: K10f0c9df09eb78393b6fffcdca363a34d94051ee75ddad34fe8fc0fade99259a3d::server:e3e7b78139bff65a2fd0b79c47c9d0a1
+  
