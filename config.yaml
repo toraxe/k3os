@@ -1,6 +1,6 @@
 ssh_authorized_keys:
 - github:toraxe
-hostname: server-manager
+hostname: k3s-1
 init_cmd:
 - "echo hello, init command"
 boot_cmd:
