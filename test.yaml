@@ -1,0 +1,8 @@
+#cloud-config
+rancher:
+  network:
+    dns:
+      nameservers:
+      - 192.168.90.30
+      search:
+      - aib.se
