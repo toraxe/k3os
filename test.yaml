@@ -1,4 +1,9 @@
 #cloud-config
+resolv_conf:
+  nameservers: ['192.168.90.30']
+  searchdomains:
+    - aib.se
+
 rancher:
   network:
     dns:
